@@ -12,7 +12,7 @@ from config import IMG, OWNER_USERNAME, STICKER
 from Mickey import MickeyBot
 from Mickey.database.chats import add_served_chat
 from Mickey.database.users import add_served_user
-from Mickey.modules.helpers import PNG_BTN
+from Mickey.modules.helpers import DEV_OP
 
 
 @MickeyBot.on_cmd("start")
