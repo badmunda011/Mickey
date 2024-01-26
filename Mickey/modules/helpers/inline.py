@@ -6,8 +6,6 @@ from Mickey import MickeyBot
 
 DEV_OP = [
     [
-        InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/iam_daxx"),
-          ],
         InlineKeyboardButton(text="✨ ꜱᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/ll_THE_BAD_BOT_ll"),
     ],
     [
@@ -19,9 +17,7 @@ DEV_OP = [
     [
         InlineKeyboardButton(text="🚀 ʜᴇʟᴘ & ᴄᴍᴅs 🚀", callback_data="HELP"),
     ],
-    [
-        InlineKeyboardButton(text="☁️ ᴀʙᴏᴜᴛ ☁️", callback_data="ABOUT"),
-    ],
+
 ]
 
 PNG_BTN = [
