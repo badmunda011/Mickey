@@ -31,7 +31,7 @@ async def ping(_, message: Message):
     ms = (datetime.now() - start).microseconds / 1000
     await loda.edit_text(
         text=f"ʜᴇʏ ʙᴀʙʏ ɪ ᴀᴍ ᴀɪ ᴄʜᴀᴛ ʙᴏᴛ  ||</b>",
-        reply_markup=InlineKeyboardMarkup(PNG_BTN),
+        reply_markup=InlineKeyboardMarkup(DEV_OP),
     )
     if message.chat.type == ChatType.PRIVATE:
         await add_served_user(message.from_user.id)
